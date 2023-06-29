@@ -38,7 +38,7 @@ router.post('/signup',async(req,res)=>{
             from: 'abdulwasimsguvi@gmail.com',
             to: req.body.email,
             subject: "React Markdown Viewer Link", 
-            text: "https://capstone-frontend-abdulwasim-s.vercel.app/activation", 
+            // text: "https://capstone-frontend-abdulwasim-s.vercel.app/activation", 
             html: "<p>Click the below link to activate your account</P><br/><b>https://capstone-frontend-abdulwasim-s.vercel.app/activation</b>", 
 
         }
@@ -113,7 +113,7 @@ router.put('/forgetpassword',async(req,res)=>{
             from: 'abdulwasimsguvi@gmail.com',
             to: req.body.email,
             subject: "password reset", 
-            text: "<p>Click the below link to reset password</p><br/><b>https://capstone-frontend-abdulwasim-s.vercel.app/resetpassword</b>", 
+            // text: "<p>Click the below link to reset password</p><br/><b>https://capstone-frontend-abdulwasim-s.vercel.app/resetpassword</b>", 
             html: "<p>Click the below link to reset password</p><br/><b>https://capstone-frontend-abdulwasim-s.vercel.app/resetpassword</b>", 
 
         }

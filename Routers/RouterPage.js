@@ -38,8 +38,8 @@ router.post('/signup',async(req,res)=>{
             from: 'abdulwasimsguvi@gmail.com',
             to: req.body.email,
             subject: "React Markdown Viewer Link", 
-            text: "https://capstone-forntend-abdulwasim-s.vercel.app/activation", 
-            html: "<p>Click the below link to activate your account</P><br/><b>https://capstone-backend-abdulwasim-s.vercel.app/activation</b>", 
+            text: "https://capstone-frontend-abdulwasim-s.vercel.app/activation", 
+            html: "<p>Click the below link to activate your account</P><br/><b>https://capstone-frontend-abdulwasim-s.vercel.app/activation</b>", 
 
         }
         //Sending activation link mail
